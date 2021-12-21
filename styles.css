@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.center {
+  text-align: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif, serif;
+  background-color: #fafafa;
+}
+
+main {
+  width: 90%;
+  padding: 5% 0px 0px;
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #a3a5ae;
+}
+
+.sub_h1 {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: #a3a5ae;
+  font-size: 1rem;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+ul li p {
+  margin: 5px 0px 35px;
+}
+
+ul li img {
+  display: block;
+  margin-left: auto;
+}
+
+ul .card1 {
+  border-top: 4px #45d3d3 solid;
+}
+
+ul .card2 {
+  border-top: 4px #ea5353 solid;
+}
+
+ul .card3 {
+  border-top: 4px #fcaf4a solid;
+}
+
+ul .card4 {
+  border-top: 4px #549ef2 solid;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

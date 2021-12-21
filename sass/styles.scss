@@ -1,0 +1,89 @@
+// "Poppins" 200, 400, 600
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+// Generic Classes
+
+.center{
+    text-align: center;
+}
+
+// Base code
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    min-height: 100vh;
+
+    font-family: "Poppins", sans-serif, serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+// Main code
+main{
+    width: 90%;
+    padding: 5% 0px 0px;
+    margin: 0px auto;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+.sub_h1{
+    margin-bottom: 10px;
+
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;  
+}
+
+p{  
+    color: hsl(229, 6%, 66%);
+    font-size: 1rem;
+}
+
+// Cards part
+ul{
+    margin-top: 50px;
+    
+    list-style-type: none;
+
+    li{
+        padding: 25px;
+        margin-bottom: 25px;
+
+        background-color: white;
+        border-radius: 10px;
+
+        p{
+            margin: 5px 0px 35px;
+        }
+        img{
+            display: block;
+
+            margin-left: auto;
+        }
+    }
+    .card1{
+        border-top: 4px hsl(180, 62%, 55%) solid;
+    }
+    .card2{
+        border-top: 4px hsl(0, 78%, 62%) solid;
+    }
+    .card3{
+        border-top: 4px hsl(34, 97%, 64%) solid;
+    }
+    .card4{
+        border-top: 4px hsl(212, 86%, 64%) solid;
+        margin-bottom: 5px;
+    }
+}
+
